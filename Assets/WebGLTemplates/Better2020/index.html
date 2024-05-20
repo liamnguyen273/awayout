@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>{{{ PRODUCT_NAME }}}</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="rosninstant.umd.production.min.js"></script>
+</head>
+
+<body class="{{{ SPLASH_SCREEN_STYLE.toLowerCase() }}}">
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas"></canvas>
+  </div>
+  <div id="loading-cover" style="display:none; ">
+    <div id="unity-loading-bar">
+      <div id="unity-logo"><img src="logo.png"></div>
+      <div id="unity-progress-bar-empty" style="display: none;">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+      <div class="spinner"></div>
+    </div>
+  </div>
+  <div id="unity-fullscreen-button" style="display: none;"></div>
+  <script>
+    ROSNInstant.initializeAsync().then(() => {
+      // Many properties will be null until the initialization completes.
+      // This is a good place to fetch them:
+      var sdkVersion = ROSNInstant.getSDKVersion(); // '1.0'
+    });
+
+    function ShowRewardedAds() {
+      const config = { adsType: "reward", rewardType: "SCORE", num: null };
+      ROSNInstant.showAds(
+        config,
+        (reward) => {
+          console.log("view ads success", reward);
+          window.unityInstance.SendMessage(
+            "AdsManager",
+            "OnShowAdsSuccess"
+          );
+        },
+        () => {
+          console.log("view ads failed");
+          window.unityInstance.SendMessage(
+            "AdsManager",
+            "OnShowAdsFailed"
+          );
+        }
+      )
+    }
+
+    function ShowRewardedAdsCoins(coins) {
+      console.log("coins: " + coins);
+      const config = { adsType: "reward", rewardType: "SCORE", num: Number(coins) };
+      ROSNInstant.showAds(
+        config,
+        (reward) => {
+          console.log("view ads success", reward);
+          window.unityInstance.SendMessage(
+            "AdsManager",
+            "OnShowAdsSuccess"
+          );
+        },
+        () => {
+          console.log("view ads failed");
+          window.unityInstance.SendMessage(
+            "AdsManager",
+            "OnShowAdsFailed"
+          );
+        }
+      )
+    }
+
+    function ShowInterAds() {
+      const config = { adsType: "interstitial", rewardType: "SCORE", num: null };
+      ROSNInstant.showAds(
+        config,
+        (reward) => {
+          console.log("view ads success", reward);
+          window.unityInstance.SendMessage(
+            "AdsManager",
+            "OnShowAdsSuccess"
+          );
+        },
+        () => {
+          console.log("view ads failed");
+          window.unityInstance.SendMessage(
+            "AdsManager",
+            "OnShowAdsFailed"
+          );
+        }
+      )
+    }
+
+    function CloseGameAWayOut() {
+      console.log("CloseGameAWayOut");
+    }
+
+    const hideFullScreenButton = "{{{ HIDE_FULL_SCREEN_BUTTON }}}";
+    const buildUrl = "Build";
+    const loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
+    const config = {
+      dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+      frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+      codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+      #if MEMORY_FILENAME
+        memoryUrl: buildUrl + "/{{{ MEMORY_FILENAME }}}",
+      #endif
+#if SYMBOLS_FILENAME
+        symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
+      #endif
+        streamingAssetsUrl: "StreamingAssets",
+      companyName: "{{{ COMPANY_NAME }}}",
+      productName: "{{{ PRODUCT_NAME }}}",
+      productVersion: "{{{ PRODUCT_VERSION }}}",
+    };
+
+    const container = document.querySelector("#unity-container");
+    const canvas = document.querySelector("#unity-canvas");
+    const loadingCover = document.querySelector("#loading-cover");
+    const progressBarEmpty = document.querySelector("#unity-progress-bar-empty");
+    const progressBarFull = document.querySelector("#unity-progress-bar-full");
+    const fullscreenButton = document.querySelector("#unity-fullscreen-button");
+    const spinner = document.querySelector('.spinner');
+
+    const canFullscreen = (function () {
+      for (const key of [
+        'exitFullscreen',
+        'webkitExitFullscreen',
+        'webkitCancelFullScreen',
+        'mozCancelFullScreen',
+        'msExitFullscreen',
+      ]) {
+        if (key in document) {
+          return true;
+        }
+      }
+      return false;
+    }());
+
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      container.className = "unity-mobile";
+      //loadingCover.style.transform = "rotate(90deg)";
+      config.devicePixelRatio = 1;
+    }
+    #if BACKGROUND_FILENAME
+    canvas.style.background = "url('" + buildUrl + "/{{{ BACKGROUND_FILENAME.replace(/'/g, '%27') }}}') center / cover";
+    #endif
+    loadingCover.style.display = "";
+
+    const script = document.createElement("script");
+    script.src = loaderUrl;
+    script.onload = () => {
+      createUnityInstance(canvas, config, (progress) => {
+
+        spinner.style.display = "none";
+        progressBarEmpty.style.display = "";
+        progressBarFull.style.width = `${100 * progress}%`;
+      }).then((unityInstance) => {
+        window.unityInstance = unityInstance;
+        // if (container.className == "unity-mobile") {
+        //   canvas.style.transform = "rotate(90deg)";
+        //   canvas.style.transformOrigin = "top left";
+        //   canvas.style.width = "100vh";
+        //   canvas.style.height = "100vw";
+        //   canvas.style.marginLeft = canvas.offsetHeight + "px";
+        // }
+        loadingCover.style.display = "none";
+        if (canFullscreen) {
+          if (!hideFullScreenButton) {
+            fullscreenButton.style.display = "";
+          }
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }
+      }).catch((message) => {
+        alert(message);
+      });
+    };
+    document.body.appendChild(script);
+    document.body.requestFullscreen = console.log("Not support fullscreen")
+  </script>
+</body>
+
+</html>

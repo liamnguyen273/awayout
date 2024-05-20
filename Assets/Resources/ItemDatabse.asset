@@ -1,0 +1,776 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dca3a84898449a499e3f1bd9a86f313, type: 3}
+  m_Name: ItemDatabse
+  m_EditorClassIdentifier: 
+  weaponDatas:
+  - itemId: handgun_L1
+    itemName: Handgun
+    itemImage: {fileID: 21300000, guid: 111f58e2a0c083e40ba46e41769c0dea, type: 3}
+    description: '<color=white>HANDGUN</color>
+
+
+      Pistols, which are gradually
+      upgraded in stages. Compact in combat, but will require more ammo to destroy
+      the enemy.'
+    weaponPrefab: {fileID: 588687214335689897, guid: 83c47bec9b4487b47aca24af69e131f1, type: 3}
+    weaponRarity: 0
+  - itemId: handgun_L2
+    itemName: Handgun
+    itemImage: {fileID: 21300000, guid: 111f58e2a0c083e40ba46e41769c0dea, type: 3}
+    description: '<color=white>HANDGUN</color>
+
+
+      Pistols, which are gradually
+      upgraded in stages. Compact in combat, but will require more ammo to destroy
+      the enemy.'
+    weaponPrefab: {fileID: 588687214335689897, guid: 6bfb7cf13b1db5641aa267d1bb9c6b4f, type: 3}
+    weaponRarity: 1
+  - itemId: handgun_L3
+    itemName: Handgun
+    itemImage: {fileID: 21300000, guid: 111f58e2a0c083e40ba46e41769c0dea, type: 3}
+    description: '<color=white>HANDGUN</color>
+
+
+      Pistols, which are gradually
+      upgraded in stages. Compact in combat, but will require more ammo to destroy
+      the enemy.'
+    weaponPrefab: {fileID: 588687214335689897, guid: 6bfb7cf13b1db5641aa267d1bb9c6b4f, type: 3}
+    weaponRarity: 2
+  - itemId: handgun_L4
+    itemName: Handgun
+    itemImage: {fileID: 21300000, guid: 111f58e2a0c083e40ba46e41769c0dea, type: 3}
+    description: '<color=white>HANDGUN</color>
+
+
+      Pistols, which are gradually
+      upgraded in stages. Compact in combat, but will require more ammo to destroy
+      the enemy.'
+    weaponPrefab: {fileID: 588687214335689897, guid: 10bab8cfbf354a8419f32122aaee80f7, type: 3}
+    weaponRarity: 3
+  - itemId: handgun_L5
+    itemName: Handgun
+    itemImage: {fileID: 21300000, guid: 111f58e2a0c083e40ba46e41769c0dea, type: 3}
+    description: '<color=white>HANDGUN</color>
+
+
+      Pistols, which are gradually
+      upgraded in stages. Compact in combat, but will require more ammo to destroy
+      the enemy.'
+    weaponPrefab: {fileID: 588687214335689897, guid: 53889f28f5f92834ba1132ca28e537bc, type: 3}
+    weaponRarity: 4
+  - itemId: revolver_1
+    itemName: Revolver
+    itemImage: {fileID: 21300000, guid: c4fe3ec2c5575614b85954f3b62304a1, type: 3}
+    description: '<color=white>REVOLVER</color>
+
+
+      A revolver-type handgun that
+      normally holds 6 rounds, hence the name pistol, but is also designed to use
+      more ammunition. This is a personal gun, small size, light, 6-hole rotating
+      cartridge'
+    weaponPrefab: {fileID: 3279137541701104609, guid: 877aed6aea6c14d4cb2118acaa90aa23, type: 3}
+    weaponRarity: 0
+  - itemId: revolver_2
+    itemName: Revolver
+    itemImage: {fileID: 21300000, guid: c4fe3ec2c5575614b85954f3b62304a1, type: 3}
+    description: '<color=white>REVOLVER</color>
+
+
+      A revolver-type handgun that
+      normally holds 6 rounds, hence the name pistol, but is also designed to use
+      more ammunition. This is a personal gun, small size, light, 6-hole rotating
+      cartridge'
+    weaponPrefab: {fileID: 3279137541701104609, guid: f9987194ac63290409c2dd4447857987, type: 3}
+    weaponRarity: 1
+  - itemId: revolver_3
+    itemName: Revolver
+    itemImage: {fileID: 21300000, guid: c4fe3ec2c5575614b85954f3b62304a1, type: 3}
+    description: '<color=white>REVOLVER</color>
+
+
+      A revolver-type handgun that
+      normally holds 6 rounds, hence the name pistol, but is also designed to use
+      more ammunition. This is a personal gun, small size, light, 6-hole rotating
+      cartridge'
+    weaponPrefab: {fileID: 3279137541701104609, guid: 54edfb089eb62184ba720c345cf5acde, type: 3}
+    weaponRarity: 2
+  - itemId: revolver_4
+    itemName: Revolver
+    itemImage: {fileID: 21300000, guid: c4fe3ec2c5575614b85954f3b62304a1, type: 3}
+    description: '<color=white>REVOLVER</color>
+
+
+      A revolver-type handgun that
+      normally holds 6 rounds, hence the name pistol, but is also designed to use
+      more ammunition. This is a personal gun, small size, light, 6-hole rotating
+      cartridge'
+    weaponPrefab: {fileID: 3279137541701104609, guid: eb25a0f03fcc4b149a59fab441670016, type: 3}
+    weaponRarity: 3
+  - itemId: revolver_5
+    itemName: Revolver
+    itemImage: {fileID: 21300000, guid: c4fe3ec2c5575614b85954f3b62304a1, type: 3}
+    description: '<color=white>REVOLVER</color>
+
+
+      A revolver-type handgun that
+      normally holds 6 rounds, hence the name pistol, but is also designed to use
+      more ammunition. This is a personal gun, small size, light, 6-hole rotating
+      cartridge'
+    weaponPrefab: {fileID: 3279137541701104609, guid: 8231edb64c6ae0a4b84659eb91220735, type: 3}
+    weaponRarity: 4
+  - itemId: shotgun_L1
+    itemName: Shotgun
+    itemImage: {fileID: 21300000, guid: 2ff256f6c6b6177458619a0149c8ed9e, type: 3}
+    description: '<color=white>SHOTGUN</color>
+
+
+      A shotgun is a long-barreled
+      firearm designed to shoot a straight-walled cartridge known as a shotshell,'
+    weaponPrefab: {fileID: 1974075454385115170, guid: 2b3f30babf4193b48a252f91ad37c658, type: 3}
+    weaponRarity: 0
+  - itemId: shotgun_L2
+    itemName: Shotgun
+    itemImage: {fileID: 21300000, guid: 2ff256f6c6b6177458619a0149c8ed9e, type: 3}
+    description: '<color=white>SHOTGUN</color>
+
+
+      A shotgun is a long-barreled
+      firearm designed to shoot a straight-walled cartridge known as a shotshell,'
+    weaponPrefab: {fileID: 1974075454385115170, guid: 7eac9f6d7f2194b4dbb3984cf3904709, type: 3}
+    weaponRarity: 1
+  - itemId: shotgun_L3
+    itemName: Shotgun
+    itemImage: {fileID: 21300000, guid: 2ff256f6c6b6177458619a0149c8ed9e, type: 3}
+    description: '<color=white>SHOTGUN</color>
+
+
+      A shotgun is a long-barreled
+      firearm designed to shoot a straight-walled cartridge known as a shotshell,'
+    weaponPrefab: {fileID: 1974075454385115170, guid: 578962229b8f99a4987039011ff2fc13, type: 3}
+    weaponRarity: 2
+  - itemId: shotgun_L4
+    itemName: Shotgun
+    itemImage: {fileID: 21300000, guid: 2ff256f6c6b6177458619a0149c8ed9e, type: 3}
+    description: '<color=white>SHOTGUN</color>
+
+
+      A shotgun is a long-barreled
+      firearm designed to shoot a straight-walled cartridge known as a shotshell,'
+    weaponPrefab: {fileID: 1974075454385115170, guid: bc06d521ac9bf8341a60948df20c4271, type: 3}
+    weaponRarity: 3
+  - itemId: shotgun_L5
+    itemName: Shotgun
+    itemImage: {fileID: 21300000, guid: 2ff256f6c6b6177458619a0149c8ed9e, type: 3}
+    description: '<color=white>SHOTGUN</color>
+
+
+      A shotgun is a long-barreled
+      firearm designed to shoot a straight-walled cartridge known as a shotshell,'
+    weaponPrefab: {fileID: 1974075454385115170, guid: 8606e19998c74904db00a31d77e91bf8, type: 3}
+    weaponRarity: 4
+  - itemId: assault_rifle_L1
+    itemName: Assault Rifle
+    itemImage: {fileID: 21300000, guid: 019be2be8cc1fc9409c3d14bc85974f8, type: 3}
+    description: '<color=white>ASSAULT RIFLE</color>
+
+
+      A class of weapon. Assault
+      Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 6425383615614750842, guid: d0108d67c2e4c5c4e89665ecc7855fa7, type: 3}
+    weaponRarity: 0
+  - itemId: assault_rifle_L2
+    itemName: Assault Rifle
+    itemImage: {fileID: 21300000, guid: 019be2be8cc1fc9409c3d14bc85974f8, type: 3}
+    description: '<color=white>ASSAULT RIFLE</color>
+
+
+      A class of weapon. Assault
+      Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 6425383615614750842, guid: 6ed06718153cafc42baed135860735b9, type: 3}
+    weaponRarity: 1
+  - itemId: assault_rifle_L3
+    itemName: Assault Rifle
+    itemImage: {fileID: 21300000, guid: 019be2be8cc1fc9409c3d14bc85974f8, type: 3}
+    description: '<color=white>ASSAULT RIFLE</color>
+
+
+      A class of weapon. Assault
+      Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 6425383615614750842, guid: d4de86600c5162e4996dbcf68686aea9, type: 3}
+    weaponRarity: 2
+  - itemId: assault_rifle_L4
+    itemName: Assault Rifle
+    itemImage: {fileID: 21300000, guid: 019be2be8cc1fc9409c3d14bc85974f8, type: 3}
+    description: '<color=white>ASSAULT RIFLE</color>
+
+
+      A class of weapon. Assault
+      Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 6425383615614750842, guid: 7972e0c4e1c78914cabe72e06991ba07, type: 3}
+    weaponRarity: 3
+  - itemId: assault_rifle_L5
+    itemName: Assault Rifle
+    itemImage: {fileID: 21300000, guid: 019be2be8cc1fc9409c3d14bc85974f8, type: 3}
+    description: '<color=white>ASSAULT RIFLE</color>
+
+
+      A class of weapon. Assault
+      Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 6425383615614750842, guid: 025a10f577098cd409e6ee96f280016e, type: 3}
+    weaponRarity: 4
+  - itemId: assault_rifle_B_L1
+    itemName: Assault Rifle B
+    itemImage: {fileID: 21300000, guid: af7503d3a752ebe4bb01c8f76959677d, type: 3}
+    description: '<color=white>ASSAULT RIFLE B</color>
+
+
+      A class of weapon.
+      Assault Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 1654903039601021610, guid: 258f4e22a506b6d4b8fec4b8bfa838fb, type: 3}
+    weaponRarity: 0
+  - itemId: assault_rifle_B_L2
+    itemName: Assault Rifle B
+    itemImage: {fileID: 21300000, guid: af7503d3a752ebe4bb01c8f76959677d, type: 3}
+    description: '<color=white>ASSAULT RIFLE B</color>
+
+
+      A class of weapon.
+      Assault Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 1654903039601021610, guid: 1599cd572e6ba7a4eb5023e9771f0a9f, type: 3}
+    weaponRarity: 1
+  - itemId: assault_rifle_B_L3
+    itemName: Assault Rifle B
+    itemImage: {fileID: 21300000, guid: af7503d3a752ebe4bb01c8f76959677d, type: 3}
+    description: '<color=white>ASSAULT RIFLE B</color>
+
+
+      A class of weapon.
+      Assault Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 1654903039601021610, guid: 7dc82b1a8bf9d384f8665c9c6eaad75d, type: 3}
+    weaponRarity: 2
+  - itemId: assault_rifle_B_L4
+    itemName: Assault Rifle B
+    itemImage: {fileID: 21300000, guid: af7503d3a752ebe4bb01c8f76959677d, type: 3}
+    description: '<color=white>ASSAULT RIFLE B</color>
+
+
+      A class of weapon.
+      Assault Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 1654903039601021610, guid: 3f50f86da7c451242906e4c4a8fa1679, type: 3}
+    weaponRarity: 3
+  - itemId: assault_rifle_B_L5
+    itemName: Assault Rifle B
+    itemImage: {fileID: 21300000, guid: af7503d3a752ebe4bb01c8f76959677d, type: 3}
+    description: '<color=white>ASSAULT RIFLE B</color>
+
+
+      A class of weapon.
+      Assault Rifle meets a lot of requirement for soldiers on the modern battlefield. '
+    weaponPrefab: {fileID: 1654903039601021610, guid: 416b1fbc0882a1346ad71da6c168bc5c, type: 3}
+    weaponRarity: 4
+  - itemId: crossbow_L1
+    itemName: Crossbow
+    itemImage: {fileID: 21300000, guid: df9aacbf3f24ea9428c686f57f28e7bd, type: 3}
+    description: '<color=white>CROSSBOW</color>
+
+
+      A ranged weapon using an
+      elastic launching device consisting of a bow. It can slow down or even destroy
+      enemies.'
+    weaponPrefab: {fileID: 6791721790825790972, guid: 90e7e44c720d6504882891db3d580116, type: 3}
+    weaponRarity: 0
+  - itemId: crossbow_L2
+    itemName: Crossbow
+    itemImage: {fileID: 21300000, guid: df9aacbf3f24ea9428c686f57f28e7bd, type: 3}
+    description: '<color=white>CROSSBOW</color>
+
+
+      A ranged weapon using an
+      elastic launching device consisting of a bow. It can slow down or even destroy
+      enemies.'
+    weaponPrefab: {fileID: 6791721790825790972, guid: a4bfef61ded56d0459743e61d683fd26, type: 3}
+    weaponRarity: 1
+  - itemId: crossbow_L3
+    itemName: Crossbow
+    itemImage: {fileID: 21300000, guid: df9aacbf3f24ea9428c686f57f28e7bd, type: 3}
+    description: '<color=white>CROSSBOW</color>
+
+
+      A ranged weapon using an
+      elastic launching device consisting of a bow. It can slow down or even destroy
+      enemies.'
+    weaponPrefab: {fileID: 6791721790825790972, guid: 66e25a8c57fdf1044b8027b9a0e17f4b, type: 3}
+    weaponRarity: 2
+  - itemId: crossbow_L4
+    itemName: Crossbow
+    itemImage: {fileID: 21300000, guid: df9aacbf3f24ea9428c686f57f28e7bd, type: 3}
+    description: '<color=white>CROSSBOW</color>
+
+
+      A ranged weapon using an
+      elastic launching device consisting of a bow. It can slow down or even destroy
+      enemies.'
+    weaponPrefab: {fileID: 6791721790825790972, guid: cc1915a1540d0d5469cd24e141c4f580, type: 3}
+    weaponRarity: 3
+  - itemId: crossbow_L5
+    itemName: Crossbow
+    itemImage: {fileID: 21300000, guid: df9aacbf3f24ea9428c686f57f28e7bd, type: 3}
+    description: '<color=white>CROSSBOW</color>
+
+
+      A ranged weapon using an
+      elastic launching device consisting of a bow. It can slow down or even destroy
+      enemies.'
+    weaponPrefab: {fileID: 6791721790825790972, guid: 621f9864db3d11f4ea7a3dc056d9e482, type: 3}
+    weaponRarity: 4
+  - itemId: heavy_machine_L1
+    itemName: Heavy Machine
+    itemImage: {fileID: 21300000, guid: 05b0efd30242cd2469e6f41b12642739, type: 3}
+    description: '<color=white>HEAVY MACHINE</color>
+
+
+      A machine gun and and
+      automatic gun which is capable of sustained rapid fire. Can shoot freely until
+      the ammo runs out. The higher the level, the stronger the gun.'
+    weaponPrefab: {fileID: 374905762006697403, guid: 8ab7109cc7cbcbe44930f3c66e1838bb, type: 3}
+    weaponRarity: 0
+  - itemId: heavy_machine_L2
+    itemName: Heavy Machine
+    itemImage: {fileID: 21300000, guid: 05b0efd30242cd2469e6f41b12642739, type: 3}
+    description: '<color=white>HEAVY MACHINE</color>
+
+
+      A machine gun and and
+      automatic gun which is capable of sustained rapid fire. Can shoot freely until
+      the ammo runs out. The higher the level, the stronger the gun.'
+    weaponPrefab: {fileID: 374905762006697403, guid: 41d574c0a4dd4114eb0b932b4b67d71a, type: 3}
+    weaponRarity: 1
+  - itemId: heavy_machine_L3
+    itemName: Heavy Machine
+    itemImage: {fileID: 21300000, guid: 05b0efd30242cd2469e6f41b12642739, type: 3}
+    description: '<color=white>HEAVY MACHINE</color>
+
+
+      A machine gun and and
+      automatic gun which is capable of sustained rapid fire. Can shoot freely until
+      the ammo runs out. The higher the level, the stronger the gun.'
+    weaponPrefab: {fileID: 374905762006697403, guid: 3e960e15900a6ce4faabaf2931318aeb, type: 3}
+    weaponRarity: 2
+  - itemId: heavy_machine_L4
+    itemName: Heavy Machine
+    itemImage: {fileID: 21300000, guid: 05b0efd30242cd2469e6f41b12642739, type: 3}
+    description: '<color=white>HEAVY MACHINE</color>
+
+
+      A machine gun and and
+      automatic gun which is capable of sustained rapid fire. Can shoot freely until
+      the ammo runs out. The higher the level, the stronger the gun.'
+    weaponPrefab: {fileID: 374905762006697403, guid: 69f32a8689ea6004cbab05bc6d19b64d, type: 3}
+    weaponRarity: 3
+  - itemId: heavy_machine_L5
+    itemName: Heavy Machine
+    itemImage: {fileID: 21300000, guid: 05b0efd30242cd2469e6f41b12642739, type: 3}
+    description: '<color=white>HEAVY MACHINE</color>
+
+
+      A machine gun and and
+      automatic gun which is capable of sustained rapid fire. Can shoot freely until
+      the ammo runs out. The higher the level, the stronger the gun.'
+    weaponPrefab: {fileID: 374905762006697403, guid: 63aa4e8f8378fb34cb38b04e620040f4, type: 3}
+    weaponRarity: 4
+  - itemId: machine_gun_L1
+    itemName: Machinegun
+    itemImage: {fileID: 21300000, guid: c6c41a9d5c93af842aed1297bb4b55f7, type: 3}
+    description: '<color=white>MACHINEGUN</color>
+
+
+      A fully automatic firearm
+      capable of firing in very long bursts. The gun is usually mounted on pedestals,
+      on motor vehicles to increase maneuverability. It is a type of gun that can
+      fire fully automatically, capable of firing in very long bursts. '
+    weaponPrefab: {fileID: 6081003193802717529, guid: 6b4800d0079a75842ba3cabb800f35b8, type: 3}
+    weaponRarity: 0
+  - itemId: machine_gun_L2
+    itemName: Machinegun
+    itemImage: {fileID: 21300000, guid: c6c41a9d5c93af842aed1297bb4b55f7, type: 3}
+    description: '<color=white>MACHINEGUN</color>
+
+
+      A fully automatic firearm
+      capable of firing in very long bursts. The gun is usually mounted on pedestals,
+      on motor vehicles to increase maneuverability. It is a type of gun that can
+      fire fully automatically, capable of firing in very long bursts. '
+    weaponPrefab: {fileID: 6081003193802717529, guid: e5054e8ea16c3f24f94dd0be0b9b9057, type: 3}
+    weaponRarity: 1
+  - itemId: machine_gun_L3
+    itemName: Machinegun
+    itemImage: {fileID: 21300000, guid: c6c41a9d5c93af842aed1297bb4b55f7, type: 3}
+    description: '<color=white>MACHINEGUN</color>
+
+
+      A fully automatic firearm
+      capable of firing in very long bursts. The gun is usually mounted on pedestals,
+      on motor vehicles to increase maneuverability. It is a type of gun that can
+      fire fully automatically, capable of firing in very long bursts. '
+    weaponPrefab: {fileID: 6081003193802717529, guid: b5e5a45c6c64bbb48af6b3bdb2454800, type: 3}
+    weaponRarity: 2
+  - itemId: machine_gun_L4
+    itemName: Machinegun
+    itemImage: {fileID: 21300000, guid: c6c41a9d5c93af842aed1297bb4b55f7, type: 3}
+    description: '<color=white>MACHINEGUN</color>
+
+
+      A fully automatic firearm
+      capable of firing in very long bursts. The gun is usually mounted on pedestals,
+      on motor vehicles to increase maneuverability. It is a type of gun that can
+      fire fully automatically, capable of firing in very long bursts. '
+    weaponPrefab: {fileID: 6081003193802717529, guid: 0f02d73f21f599149956e74589e33791, type: 3}
+    weaponRarity: 3
+  - itemId: machine_gun_L5
+    itemName: Machinegun
+    itemImage: {fileID: 21300000, guid: c6c41a9d5c93af842aed1297bb4b55f7, type: 3}
+    description: '<color=white>MACHINEGUN</color>
+
+
+      A fully automatic firearm
+      capable of firing in very long bursts. The gun is usually mounted on pedestals,
+      on motor vehicles to increase maneuverability. It is a type of gun that can
+      fire fully automatically, capable of firing in very long bursts. '
+    weaponPrefab: {fileID: 6081003193802717529, guid: b994bcd20f28401458b48ec41ff9c38d, type: 3}
+    weaponRarity: 4
+  - itemId: medigun_L1
+    itemName: Medigun
+    itemImage: {fileID: 21300000, guid: c6ec32e13a88e4c42a556aa147c5ed85, type: 3}
+    description: '<color=white>MEDIGUN</color>
+
+
+      Special gun for the medic.
+      Compact but multi-use'
+    weaponPrefab: {fileID: 1501649192474282627, guid: 9f10b5ef5818cea45956cdbc80e93e41, type: 3}
+    weaponRarity: 0
+  - itemId: medigun_L2
+    itemName: Medigun
+    itemImage: {fileID: 21300000, guid: c6ec32e13a88e4c42a556aa147c5ed85, type: 3}
+    description: '<color=white>MEDIGUN</color>
+
+
+      Special gun for the medic.
+      Compact but multi-use'
+    weaponPrefab: {fileID: 1501649192474282627, guid: 635a5e8ca4f0a6c4cba8ee15f5ff8be7, type: 3}
+    weaponRarity: 1
+  - itemId: medigun_L3
+    itemName: Medigun
+    itemImage: {fileID: 21300000, guid: c6ec32e13a88e4c42a556aa147c5ed85, type: 3}
+    description: '<color=white>MEDIGUN</color>
+
+
+      Special gun for the medic.
+      Compact but multi-use'
+    weaponPrefab: {fileID: 1501649192474282627, guid: 98dc23dfd41ba3d4487b74e2d3c9da27, type: 3}
+    weaponRarity: 2
+  - itemId: medigun_L4
+    itemName: Medigun
+    itemImage: {fileID: 21300000, guid: c6ec32e13a88e4c42a556aa147c5ed85, type: 3}
+    description: '<color=white>MEDIGUN</color>
+
+
+      Special gun for the medic.
+      Compact but multi-use'
+    weaponPrefab: {fileID: 1501649192474282627, guid: 492dd10d9be1a2045b9f2615a14a8a15, type: 3}
+    weaponRarity: 3
+  - itemId: medigun_L5
+    itemName: Medigun
+    itemImage: {fileID: 21300000, guid: c6ec32e13a88e4c42a556aa147c5ed85, type: 3}
+    description: '<color=white>MEDIGUN</color>
+
+
+      Special gun for the medic.
+      Compact but multi-use'
+    weaponPrefab: {fileID: 1501649192474282627, guid: 9345b53353ee27246b594e754e050327, type: 3}
+    weaponRarity: 4
+  - itemId: minigun_L1
+    itemName: Minigun
+    itemImage: {fileID: 21300000, guid: 62d7956c4de318f41a3bdc42d9eb63d4, type: 3}
+    description: '<color=white>MINIGUN</color>
+
+
+      Maybe they are in small size,
+      but they are very good for soldiers in multi-use'
+    weaponPrefab: {fileID: 2374562714188083191, guid: b27470f4753810f47a5d3a4f774865d4, type: 3}
+    weaponRarity: 0
+  - itemId: minigun_L2
+    itemName: Minigun
+    itemImage: {fileID: 21300000, guid: 62d7956c4de318f41a3bdc42d9eb63d4, type: 3}
+    description: '<color=white>MINIGUN</color>
+
+
+      Maybe they are in small size,
+      but they are very good for soldiers in multi-use'
+    weaponPrefab: {fileID: 2374562714188083191, guid: 60834d3df8e388347b810b5037e490aa, type: 3}
+    weaponRarity: 1
+  - itemId: minigun_L3
+    itemName: Minigun
+    itemImage: {fileID: 21300000, guid: 62d7956c4de318f41a3bdc42d9eb63d4, type: 3}
+    description: '<color=white>MINIGUN</color>
+
+
+      Maybe they are in small size,
+      but they are very good for soldiers in multi-use'
+    weaponPrefab: {fileID: 2374562714188083191, guid: 25ce6f44deb03e64aae13d9b4d933a64, type: 3}
+    weaponRarity: 2
+  - itemId: minigun_L4
+    itemName: Minigun
+    itemImage: {fileID: 21300000, guid: 62d7956c4de318f41a3bdc42d9eb63d4, type: 3}
+    description: '<color=white>MINIGUN</color>
+
+
+      Maybe they are in small size,
+      but they are very good for soldiers in multi-use'
+    weaponPrefab: {fileID: 2374562714188083191, guid: d0288940bb40abf4484e1f81c218358c, type: 3}
+    weaponRarity: 3
+  - itemId: minigun_L5
+    itemName: Minigun
+    itemImage: {fileID: 21300000, guid: 62d7956c4de318f41a3bdc42d9eb63d4, type: 3}
+    description: '<color=white>MINIGUN</color>
+
+
+      Maybe they are in small size,
+      but they are very good for soldiers in multi-use'
+    weaponPrefab: {fileID: 2374562714188083191, guid: c2a327170c595814e853da54cb459db3, type: 3}
+    weaponRarity: 4
+  - itemId: laser_gun_L1
+    itemName: Laser Gun
+    itemImage: {fileID: 21300000, guid: ebb39f6bc47aeba49bd3287ce386ac3e, type: 3}
+    description: '<color=white>LASER GUN</color>
+
+
+      A special weapon. Use it
+      once and use it again and again'
+    weaponPrefab: {fileID: 3467019872037823593, guid: d71df5b7270b37842830e1738ae5491d, type: 3}
+    weaponRarity: 0
+  - itemId: laser_gun_L2
+    itemName: Laser Gun
+    itemImage: {fileID: 21300000, guid: ebb39f6bc47aeba49bd3287ce386ac3e, type: 3}
+    description: '<color=white>LASER GUN</color>
+
+
+      A special weapon. Use it
+      once and use it again and again'
+    weaponPrefab: {fileID: 3467019872037823593, guid: df39ebc6121418444abef1aacac0f40c, type: 3}
+    weaponRarity: 1
+  - itemId: laser_gun_L3
+    itemName: Laser Gun
+    itemImage: {fileID: 21300000, guid: ebb39f6bc47aeba49bd3287ce386ac3e, type: 3}
+    description: '<color=white>LASER GUN</color>
+
+
+      A special weapon. Use it
+      once and use it again and again'
+    weaponPrefab: {fileID: 3467019872037823593, guid: 9f32c238cfef3c64ab548b04a7fee6a3, type: 3}
+    weaponRarity: 2
+  - itemId: laser_gun_L4
+    itemName: Laser Gun
+    itemImage: {fileID: 21300000, guid: ebb39f6bc47aeba49bd3287ce386ac3e, type: 3}
+    description: '<color=white>LASER GUN</color>
+
+
+      A special weapon. Use it
+      once and use it again and again'
+    weaponPrefab: {fileID: 3467019872037823593, guid: 97ecf15692036c24c8462de79fead118, type: 3}
+    weaponRarity: 3
+  - itemId: laser_gun_L5
+    itemName: Laser Gun
+    itemImage: {fileID: 21300000, guid: ebb39f6bc47aeba49bd3287ce386ac3e, type: 3}
+    description: '<color=white>LASER GUN</color>
+
+
+      A special weapon. Use it
+      once and use it again and again'
+    weaponPrefab: {fileID: 3467019872037823593, guid: eac1f607e5830014fbcc464420449fdd, type: 3}
+    weaponRarity: 4
+  - itemId: sniper_gun_L1
+    itemName: Sniper Gun
+    itemImage: {fileID: 21300000, guid: e54c91a6cf8c036418fb4b46cd0107d3, type: 3}
+    description: '<color=white>SNIPER GUN</color>
+
+
+      A high-precision and a
+      long range gun, including accuracy, reliability, mobility, concealment and
+      optics'
+    weaponPrefab: {fileID: 4600137464110485916, guid: 1c71d3fcfbc8aba4ab9c64284c8c8e6f, type: 3}
+    weaponRarity: 0
+  - itemId: sniper_gun_L2
+    itemName: Sniper Gun
+    itemImage: {fileID: 21300000, guid: e54c91a6cf8c036418fb4b46cd0107d3, type: 3}
+    description: '<color=white>SNIPER GUN</color>
+
+
+      A high-precision and a
+      long range gun, including accuracy, reliability, mobility, concealment and
+      optics'
+    weaponPrefab: {fileID: 4600137464110485916, guid: faa2130896237aa479b543ca51a7f4e8, type: 3}
+    weaponRarity: 1
+  - itemId: sniper_gun_L3
+    itemName: Sniper Gun
+    itemImage: {fileID: 21300000, guid: e54c91a6cf8c036418fb4b46cd0107d3, type: 3}
+    description: '<color=white>SNIPER GUN</color>
+
+
+      A high-precision and a
+      long range gun, including accuracy, reliability, mobility, concealment and
+      optics'
+    weaponPrefab: {fileID: 4600137464110485916, guid: 25f88a51e37a8f04fb098b6a9b64de3d, type: 3}
+    weaponRarity: 2
+  - itemId: sniper_gun_L4
+    itemName: Sniper Gun
+    itemImage: {fileID: 21300000, guid: e54c91a6cf8c036418fb4b46cd0107d3, type: 3}
+    description: '<color=white>SNIPER GUN</color>
+
+
+      A high-precision and a
+      long range gun, including accuracy, reliability, mobility, concealment and
+      optics'
+    weaponPrefab: {fileID: 4600137464110485916, guid: dc5cc1e45ec1c58458ac5bc7acc5954c, type: 3}
+    weaponRarity: 3
+  - itemId: sniper_gun_L5
+    itemName: Sniper Gun
+    itemImage: {fileID: 21300000, guid: e54c91a6cf8c036418fb4b46cd0107d3, type: 3}
+    description: '<color=white>SNIPER GUN</color>
+
+
+      A high-precision and a
+      long range gun, including accuracy, reliability, mobility, concealment and
+      optics'
+    weaponPrefab: {fileID: 4600137464110485916, guid: 7c7cd1b69175f894480ad94b9b5b1429, type: 3}
+    weaponRarity: 4
+  - itemId: submachine_gun_L1
+    itemName: Submachine Gun
+    itemImage: {fileID: 21300000, guid: 143a6abcd9fd6b24c8fde53b1f5a690f, type: 3}
+    description: '<color=white>SUBMACHINE GUN</color>
+
+
+      A close-range personal
+      weapon, belongs to the family of machine guns, also belongs to the family of
+      automatic guns depending on the classification of countries.'
+    weaponPrefab: {fileID: 4628657053466110532, guid: 6a4812d27dbacc941ba270e7cef53d8c, type: 3}
+    weaponRarity: 0
+  - itemId: submachine_gun_L2
+    itemName: Submachine Gun
+    itemImage: {fileID: 21300000, guid: 143a6abcd9fd6b24c8fde53b1f5a690f, type: 3}
+    description: '<color=white>SUBMACHINE GUN</color>
+
+
+      A close-range personal
+      weapon, belongs to the family of machine guns, also belongs to the family of
+      automatic guns depending on the classification of countries.'
+    weaponPrefab: {fileID: 4628657053466110532, guid: 73275b9605c4a7a4d86d67b483721bb2, type: 3}
+    weaponRarity: 1
+  - itemId: submachine_gun_L3
+    itemName: Submachine Gun
+    itemImage: {fileID: 21300000, guid: 143a6abcd9fd6b24c8fde53b1f5a690f, type: 3}
+    description: '<color=white>SUBMACHINE GUN</color>
+
+
+      A close-range personal
+      weapon, belongs to the family of machine guns, also belongs to the family of
+      automatic guns depending on the classification of countries.'
+    weaponPrefab: {fileID: 4628657053466110532, guid: ecb728f7eb18bcf458807e16e812b3a9, type: 3}
+    weaponRarity: 2
+  - itemId: submachine_gun_L4
+    itemName: Submachine Gun
+    itemImage: {fileID: 21300000, guid: 143a6abcd9fd6b24c8fde53b1f5a690f, type: 3}
+    description: '<color=white>SUBMACHINE GUN</color>
+
+
+      A close-range personal
+      weapon, belongs to the family of machine guns, also belongs to the family of
+      automatic guns depending on the classification of countries.'
+    weaponPrefab: {fileID: 4628657053466110532, guid: 5cfa2a55e3119194fad1770bc1c32d98, type: 3}
+    weaponRarity: 3
+  - itemId: submachine_gun_L5
+    itemName: Submachine Gun
+    itemImage: {fileID: 21300000, guid: 143a6abcd9fd6b24c8fde53b1f5a690f, type: 3}
+    description: '<color=white>SUBMACHINE GUN</color>
+
+
+      A close-range personal
+      weapon, belongs to the family of machine guns, also belongs to the family of
+      automatic guns depending on the classification of countries.'
+    weaponPrefab: {fileID: 4628657053466110532, guid: 0f6e0cbd367eabe4c813b469236a24e4, type: 3}
+    weaponRarity: 4
+  - itemId: welder_L1
+    itemName: Welder
+    itemImage: {fileID: 21300000, guid: 1176395fe44db4544aa7f440fed11daf, type: 3}
+    description: '<color=white>WELDER</color>
+
+
+      A special weapon. Use it once
+      and use it again and again'
+    weaponPrefab: {fileID: 6736205012530250770, guid: 847298f997fed89498efa3f5bd3a670c, type: 3}
+    weaponRarity: 0
+  - itemId: welder_L2
+    itemName: Welder
+    itemImage: {fileID: 21300000, guid: 1176395fe44db4544aa7f440fed11daf, type: 3}
+    description: '<color=white>WELDER</color>
+
+
+      A special weapon. Use it once
+      and use it again and again'
+    weaponPrefab: {fileID: 6736205012530250770, guid: c46c2baffade7ba449b9142520a13129, type: 3}
+    weaponRarity: 1
+  - itemId: welder_L3
+    itemName: Welder
+    itemImage: {fileID: 21300000, guid: 1176395fe44db4544aa7f440fed11daf, type: 3}
+    description: '<color=white>WELDER</color>
+
+
+      A special weapon. Use it once
+      and use it again and again'
+    weaponPrefab: {fileID: 6736205012530250770, guid: 36ed146bf6db58748a9bbff79962cd2f, type: 3}
+    weaponRarity: 2
+  - itemId: welder_L4
+    itemName: Welder
+    itemImage: {fileID: 21300000, guid: 1176395fe44db4544aa7f440fed11daf, type: 3}
+    description: '<color=white>WELDER</color>
+
+
+      A special weapon. Use it once
+      and use it again and again'
+    weaponPrefab: {fileID: 6736205012530250770, guid: 1b53a25d32521844b969d8a7bd6fcca4, type: 3}
+    weaponRarity: 3
+  - itemId: welder_L5
+    itemName: Welder
+    itemImage: {fileID: 21300000, guid: 1176395fe44db4544aa7f440fed11daf, type: 3}
+    description: '<color=white>WELDER</color>
+
+
+      A special weapon. Use it once
+      and use it again and again'
+    weaponPrefab: {fileID: 6736205012530250770, guid: 8e04fede67e76b546be3ded798285ff5, type: 3}
+    weaponRarity: 4
+  characterProperties:
+  - {fileID: 11400000, guid: 2edde89b64efa384493167bbf5e8ecf7, type: 2}
+  - {fileID: 11400000, guid: aee9ba4e0d9eec04ead5b135ef6446b5, type: 2}
+  - {fileID: 11400000, guid: 1fcf38ecae8df9148a3170acf78f891b, type: 2}
+  - {fileID: 11400000, guid: ace1667f1815cd64b896f4801790187a, type: 2}
+  - {fileID: 11400000, guid: e13f8657df3ca05458aba9797a4ef892, type: 2}
+  - {fileID: 11400000, guid: 3a4044621a057ff4183ad403fc9091f9, type: 2}
+  - {fileID: 11400000, guid: b5f4403a1596a594a9630b3b58d43813, type: 2}
+  - {fileID: 11400000, guid: 5d1cac394552f494ba8aa3db9f9812a8, type: 2}
+  - {fileID: 11400000, guid: 46d4858034a9ecb4d8261a0bc808fdbc, type: 2}
+  - {fileID: 11400000, guid: 483d3255eddcdfa4583bf5c3fdb96e87, type: 2}
+  - {fileID: 11400000, guid: ae85477712c4eea49a29b605892911f5, type: 2}
+  - {fileID: 11400000, guid: d082a26490c881e47a1f5250226c37ab, type: 2}
+  - {fileID: 11400000, guid: 977a83acd92f8ae4ba9407c5f08932da, type: 2}
+  - {fileID: 11400000, guid: d2160c027f39e0243bb07636fe8cb4fe, type: 2}
+  - {fileID: 11400000, guid: a13d74ff7ac48af4a9d46c539c7b3125, type: 2}

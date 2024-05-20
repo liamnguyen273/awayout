@@ -1,0 +1,42 @@
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.45 0.45 0.45
+Tf 1.00 1.00 1.00
+map_Kd snow01_D.png
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.48 0.48 0.48
+Tf 1.00 1.00 1.00
+map_Kd rock_snow_D.png
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.47 0.47 0.47
+Tf 1.00 1.00 1.00
+map_Kd snow02_D.png
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.46 0.46 0.46
+Tf 1.00 1.00 1.00
+map_Kd snow03_D.png
+Ni 1.00
+newmtl pasted__initialShadingGroup1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.61 0.61 0.61
+Tf 1.00 1.00 1.00
+map_Kd snow_tree_D.png
+Ni 1.00
+newmtl pasted__lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.42 0.42 0.42
+Tf 1.00 1.00 1.00
+map_Kd Forest_sky_D.png
+Ni 1.00

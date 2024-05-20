@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc08c16762ea79439b54d894ad1a12c, type: 3}
+  m_Name: MapSnow
+  m_EditorClassIdentifier: 
+  map: 2
+  mapName: Snow
+  mapOnSprite: {fileID: 21300000, guid: 630aa7b29afb6a04aae4e049fba12936, type: 3}
+  mapOffSprite: {fileID: 21300000, guid: 698ef4476bfa5f343a6644194f496b1e, type: 3}
+  gameDuration: 105
+  enemiesPerWave: 6
+  enemiesGrowUpPerWave: 8
+  coinsToUnlock: 250
+  enemyPrefabs:
+  - enemyPrefab: {fileID: 6711079259821617655, guid: 6ae0c19ebfdc8ec40bfed92c8bea85fe, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6711079259821617655, guid: ac0dc5358783d174683d8f171d51b566, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 4190906385349950935, guid: bca345c469ccbab42bb0adc0931b82df, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6543180722526482908, guid: b5744405939924542ac3204b77e02210, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 2541629360934111632, guid: 154320c9ce7475441beb924a76136d53, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6976578173315134406, guid: 2fb1afa48c41a0e438c4f97c82134c43, type: 3}
+    appearRarity: 1
+  bossPrefab:
+  - enemyPrefab: {fileID: 2189871115836310279, guid: 50426ab66b85df04984e454217660552, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 2958108429967430542, guid: 0c83689287210864f950d40c2bd1b0bd, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6711079259821617655, guid: c7a262d581adf9043b21ede5afd6c93c, type: 3}
+    appearRarity: 1

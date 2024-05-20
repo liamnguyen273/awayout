@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc08c16762ea79439b54d894ad1a12c, type: 3}
+  m_Name: MapCountryside
+  m_EditorClassIdentifier: 
+  map: 4
+  mapName: Countryside
+  mapOnSprite: {fileID: 21300000, guid: 5709b2e9995575949a12d704efde66bf, type: 3}
+  mapOffSprite: {fileID: 21300000, guid: 2ff26adaebbfca8429afc047a3b43242, type: 3}
+  gameDuration: 105
+  enemiesPerWave: 5
+  enemiesGrowUpPerWave: 12
+  coinsToUnlock: 600
+  enemyPrefabs:
+  - enemyPrefab: {fileID: 4350732010978115755, guid: b19c7a5692749d34c9180be5faef758a, type: 3}
+    appearRarity: 5
+  - enemyPrefab: {fileID: 4350732010978115755, guid: d4b7754d7a8467e49ad6ac8bea65c575, type: 3}
+    appearRarity: 5
+  - enemyPrefab: {fileID: 4350732010978115755, guid: 0d3e254a8ab114d479003757a8e2e347, type: 3}
+    appearRarity: 5
+  - enemyPrefab: {fileID: 4350732010978115755, guid: cb2addd7a65beee449d91e3b8ef65bfa, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 4350732010978115755, guid: 54921277da8b8834cb770f8e92d27152, type: 3}
+    appearRarity: 5
+  - enemyPrefab: {fileID: 4350732010978115755, guid: d5913ac93c35e7b4f90d9fceb2ea6adf, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 4350732010978115755, guid: a31f02ccf6edb1246a8c9787548e23b9, type: 3}
+    appearRarity: 5
+  bossPrefab:
+  - enemyPrefab: {fileID: 4350732010978115755, guid: 0ed47346865beb8448fe0a63c2ed465e, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 4350732010978115755, guid: e8dc799efbaa12e4c9562ea262cc9a80, type: 3}
+    appearRarity: 1

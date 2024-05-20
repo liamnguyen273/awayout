@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480b2fba1fdc2946a2d54bbc4bbb52e, type: 3}
+  m_Name: Brad
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  moveSpeed: 5
+  jumpForce: 25
+  rangeFindPlayer: 0
+  rangeRunAwayFromPlayer: 0
+  rangeUseSecondWeapon: 2
+  animationSpeed: 1
+  characterPrefab: {fileID: 5024455311975397257, guid: 508560e8b31937545b450c4f6835dca6, type: 3}
+  characterName: Brad
+  assetId: brad
+  characterImage: {fileID: 21300000, guid: 926f6d0ac4864e641bcd719b32c8f6aa, type: 3}
+  soldierSkillPrefab: {fileID: 6607228931038094279, guid: 90bdfa94796a5a44a92781ae68b9ec64, type: 3}
+  description: "<color=white>Nationality:</color> American \n<color=white>DOB:</color>
+    February 3rd 1986\n<color=white>Nickname:</color> The Sensitive Man\n\nA young
+    man with a lot of sensitive stories behind. Not exactly a soldier or a fighter.
+    But always show up when his teammates need most. One of the first guy who has
+    already felt something wrong with the world"

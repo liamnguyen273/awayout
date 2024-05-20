@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480b2fba1fdc2946a2d54bbc4bbb52e, type: 3}
+  m_Name: Albert
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  moveSpeed: 5
+  jumpForce: 25
+  rangeFindPlayer: 0
+  rangeRunAwayFromPlayer: 0
+  rangeUseSecondWeapon: 2
+  animationSpeed: 1
+  characterPrefab: {fileID: 5024455311975397257, guid: 32757686fd1b5b84484b4b21879b6f57, type: 3}
+  characterName: Albert
+  assetId: albert
+  characterImage: {fileID: 21300000, guid: fa53fcb5ac6d2b64981138a38e804848, type: 3}
+  soldierSkillPrefab: {fileID: 176709828704914765, guid: 0c794034504c46849b6144c15f9a8542, type: 3}
+  description: "<color=white>Nationality:</color> American \n<color=white>DOB:</color>
+    July 16th 1977\n<color=white>Nickname:</color> The Medical Masterpiece\n\nAlbert
+    served in the Gulf War. Not only mastering pistol skills, Albert's main strength
+    is his military medical skills. He has always been an experienced elder and a
+    solid supporter in the force."

@@ -1,0 +1,42 @@
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.30 0.30 0.30
+Tf 1.00 1.00 1.00
+map_Kd forest_Grass01_D.png
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Forest_rock_D.png
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.47 0.47 0.47
+Tf 1.00 1.00 1.00
+map_Kd forest_Grass02_D.png
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.49 0.49 0.49
+Tf 1.00 1.00 1.00
+map_Kd forest_water_D.png
+Ni 1.00
+newmtl pasted__initialShadingGroup1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.36 0.36 0.36
+Tf 1.00 1.00 1.00
+map_Kd Forest_tree_D.png
+Ni 1.00
+newmtl pasted__lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Forest_sky_D.png
+Ni 1.00

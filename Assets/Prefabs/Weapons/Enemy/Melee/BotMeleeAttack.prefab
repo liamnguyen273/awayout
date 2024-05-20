@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3559947899013239078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3559947899013239077}
+  - component: {fileID: 3559947899013239076}
+  m_Layer: 0
+  m_Name: BotMeleeAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3559947899013239077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559947899013239078}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3559947899344762019}
+  - {fileID: 1243467139724270821}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3559947899013239076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559947899013239078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0461546c76716d47b4a591072f156d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponName: Knife
+  TriggerMode: 1
+  timeBetweenUses: 1
+  weaponPosition: 1
+  magazineSize: 1000000
+  reloadTime: 2
+  ammoConsumedPerShot: 1
+  timeOutStopShoot: 1
+  damageCaused: 10
+  shootAudioClips:
+  - {fileID: 8300000, guid: b4be1edc50ba84e6086c70387c6b2901, type: 3}
+  - {fileID: 8300000, guid: 53095e7f9ab68412eac49ef285bf2e15, type: 3}
+  - {fileID: 8300000, guid: abc2dc2609eb24ca3944b4459bf37931, type: 3}
+  - {fileID: 8300000, guid: 144ac1321ffd340f1900a26d06d8cec0, type: 3}
+  - {fileID: 8300000, guid: 30e8ea32ae33242aab65836700cfb8ea, type: 3}
+  reloadAudioClip: {fileID: 0}
+  shootAnimations:
+  - animName: Right Claw Attack
+    delayBeforeShoot: 0.1
+  shootDistance: 10
+  muzzleEffect: {fileID: 1243467139705903509}
+  blockOnUseDuration: 1
+  damageOffset: {x: 0, y: 1, z: 1}
+  damageArea: {fileID: 3559947899344762045}
+--- !u!1 &3559947899344762046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3559947899344762019}
+  - component: {fileID: 3559947899344762045}
+  - component: {fileID: 6756088264647773586}
+  m_Layer: 0
+  m_Name: DamageArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3559947899344762019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559947899344762046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3559947899013239077}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3559947899344762045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559947899344762046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16caee9f94c29c943950c8f1660bf2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explodePrefab: {fileID: 1627192144415289310, guid: a661d42e6ef94f54a9e10937a57583e3, type: 3}
+--- !u!135 &6756088264647773586
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3559947899344762046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1243467139724408595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3559947899013239077}
+    m_Modifications:
+    - target: {fileID: 150944, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_Name
+      value: CartoonyPunchLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 19814508, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19820166, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19831064, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19889798, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19909030, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19931108, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19973372, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19977506, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+--- !u!4 &1243467139724270821 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 404470, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+  m_PrefabInstance: {fileID: 1243467139724408595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1243467139705903509 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 19820166, guid: 3b9161edba9968c48bd058067ad18c84, type: 3}
+  m_PrefabInstance: {fileID: 1243467139724408595}
+  m_PrefabAsset: {fileID: 0}

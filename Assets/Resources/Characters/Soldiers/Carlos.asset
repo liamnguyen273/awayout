@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480b2fba1fdc2946a2d54bbc4bbb52e, type: 3}
+  m_Name: Carlos
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  moveSpeed: 5
+  jumpForce: 25
+  rangeFindPlayer: 0
+  rangeRunAwayFromPlayer: 0
+  rangeUseSecondWeapon: 2
+  animationSpeed: 1
+  characterPrefab: {fileID: 5024455311975397257, guid: 985a26ce7c4b42c4482fe2d06a9ec383, type: 3}
+  characterName: Carlos
+  assetId: carlos
+  characterImage: {fileID: 21300000, guid: c7aebd02041f7e645aa3f6659c3ab39a, type: 3}
+  soldierSkillPrefab: {fileID: 6607228931038094279, guid: 90bdfa94796a5a44a92781ae68b9ec64, type: 3}
+  description: "<color=white>Nationality:</color> Brazilian \n<color=white>DOB:</color>
+    March 4th 1982\n<color=white>Nickname:</color> The Muscle Soldier\n\nCarlos was
+    born in Brazil where he started to become a man to protect his family from the
+    violence on the streets. The stubbornness, courage and good health helped Carlos
+    be recruited into the special forces at a very young age."

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc08c16762ea79439b54d894ad1a12c, type: 3}
+  m_Name: MapBabylon
+  m_EditorClassIdentifier: 
+  map: 3
+  mapName: Babylon
+  mapOnSprite: {fileID: 21300000, guid: 0e4f8f69871911d4680906389b0359ce, type: 3}
+  mapOffSprite: {fileID: 21300000, guid: a9232fc06338d3841b31baea5f0b98c6, type: 3}
+  gameDuration: 105
+  enemiesPerWave: 5
+  enemiesGrowUpPerWave: 5
+  coinsToUnlock: 150
+  enemyPrefabs:
+  - enemyPrefab: {fileID: 6711079259821617655, guid: 6ae0c19ebfdc8ec40bfed92c8bea85fe, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 4190906385349950935, guid: bca345c469ccbab42bb0adc0931b82df, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6543180722526482908, guid: b5744405939924542ac3204b77e02210, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 997127130959576327, guid: 9d8eedfb3fffd54418bcf606ccc01ac7, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 7890685655091987524, guid: 585a4dd217f8c944ca347dbf894ac34c, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 4020809925404620962, guid: 7d4f555b13eb7e343ad7ff095d982239, type: 3}
+    appearRarity: 1
+  bossPrefab:
+  - enemyPrefab: {fileID: 6711079259821617655, guid: c7a262d581adf9043b21ede5afd6c93c, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6898349358377453328, guid: 31b535111906fe040b486bb575839002, type: 3}
+    appearRarity: 1

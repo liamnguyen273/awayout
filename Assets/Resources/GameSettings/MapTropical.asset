@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc08c16762ea79439b54d894ad1a12c, type: 3}
+  m_Name: MapTropical
+  m_EditorClassIdentifier: 
+  map: 0
+  mapName: Tropical
+  mapOnSprite: {fileID: 21300000, guid: fc65bf8fa254c2e49bbfcf4a160d0241, type: 3}
+  mapOffSprite: {fileID: 21300000, guid: 0fc8eb839c07d0c45a74a580b6eec08a, type: 3}
+  gameDuration: 1050
+  enemiesPerWave: 3
+  enemiesGrowUpPerWave: 5
+  coinsToUnlock: 0
+  enemyPrefabs:
+  - enemyPrefab: {fileID: 3137051366308159577, guid: eb063dde8648d034e826ef84c88b2628, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 997127130959576327, guid: 9d8eedfb3fffd54418bcf606ccc01ac7, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6976578173315134406, guid: 2fb1afa48c41a0e438c4f97c82134c43, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 5332775314175797396, guid: 2f84402115e56644384797963d609e46, type: 3}
+    appearRarity: 1
+  bossPrefab:
+  - enemyPrefab: {fileID: 2958108429967430542, guid: 0c83689287210864f950d40c2bd1b0bd, type: 3}
+    appearRarity: 1
+  - enemyPrefab: {fileID: 6711079259821617655, guid: c7a262d581adf9043b21ede5afd6c93c, type: 3}
+    appearRarity: 1

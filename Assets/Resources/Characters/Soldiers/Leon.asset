@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480b2fba1fdc2946a2d54bbc4bbb52e, type: 3}
+  m_Name: Leon
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  moveSpeed: 5
+  jumpForce: 25
+  rangeFindPlayer: 0
+  rangeRunAwayFromPlayer: 0
+  rangeUseSecondWeapon: 2
+  animationSpeed: 1
+  characterPrefab: {fileID: 5024455311975397257, guid: 179a859f5868b6647b56f383a4846f66, type: 3}
+  characterName: Leon
+  assetId: leon
+  characterImage: {fileID: 21300000, guid: 28c9975ef043abb4d8b7f98bc78887bf, type: 3}
+  soldierSkillPrefab: {fileID: 6607228931038094279, guid: 90bdfa94796a5a44a92781ae68b9ec64, type: 3}
+  description: '<color=white>Nationality:</color>American - Mexican
+
+    <color=white>DOB:</color>
+    December 29th 1990
+
+    <color=white>Nickname:</color> The Gunner
+
+
+    From
+    a young age, Leon was very fond of weapons, especially guns. However, he was
+    just an ordinary police officer, until Gordon saw his true talent. A brave person
+    who always defends the right.'

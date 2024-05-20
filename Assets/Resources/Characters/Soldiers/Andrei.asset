@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480b2fba1fdc2946a2d54bbc4bbb52e, type: 3}
+  m_Name: Andrei
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  moveSpeed: 5
+  jumpForce: 25
+  rangeFindPlayer: 0
+  rangeRunAwayFromPlayer: 0
+  rangeUseSecondWeapon: 2
+  animationSpeed: 1
+  characterPrefab: {fileID: 5024455311975397257, guid: 7bea96f5502a93f4c97763c5818da1d3, type: 3}
+  characterName: Andrei
+  assetId: andrei
+  characterImage: {fileID: 21300000, guid: bd2f574e6258fef439e3869f63aab3b0, type: 3}
+  soldierSkillPrefab: {fileID: 6607228931038094279, guid: 90bdfa94796a5a44a92781ae68b9ec64, type: 3}
+  description: '<color=white>Nationality:</color> Ukrainian
+
+    <color=white>DOB:</color>
+    October 12th 1996
+
+    <color=white>Nickname:</color> The Kid
+
+
+    Had to fight
+    and join the army at a very young age. Therefore, despite his young age, Andrei
+    had a very strong fighting spirit. Good combat skills, proficient use of guns.
+    I always have an ideal of fighting to protect the good. He lost his father and
+    mother when he was only 5 years old'

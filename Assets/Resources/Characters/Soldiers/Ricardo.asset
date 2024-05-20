@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a480b2fba1fdc2946a2d54bbc4bbb52e, type: 3}
+  m_Name: Ricardo
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  moveSpeed: 5
+  jumpForce: 25
+  rangeFindPlayer: 0
+  rangeRunAwayFromPlayer: 0
+  rangeUseSecondWeapon: 2
+  animationSpeed: 1
+  characterPrefab: {fileID: 5024455311975397257, guid: dd0847e64809f444a8e90d27292fa259, type: 3}
+  characterName: Ricardo
+  assetId: ricardo
+  characterImage: {fileID: 21300000, guid: f86531a095d3d7942b46a3ae24eef73f, type: 3}
+  soldierSkillPrefab: {fileID: 6607228931038094279, guid: 90bdfa94796a5a44a92781ae68b9ec64, type: 3}
+  description: "<color=white>Nationality:</color> American \n<color=white>DOB:</color>
+    December 11th 1991\n<color=white>Nickname:</color> The Bodyguard\n\nIn the top
+    fairly young soldiers of the team. Ricardo is a very good martial artist. He
+    has won many medals and awards in tournaments around the world. Even so, gun
+    skill is not a strong point and Ricardo is also prone to psychological problems."

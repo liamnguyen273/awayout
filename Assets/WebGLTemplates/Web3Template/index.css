@@ -1,0 +1,165 @@
+.main {
+  background-image: url("/assets/bg.png");
+  width: 100%;
+  font-family: "Rajdhani", sans-serif;
+}
+.page-content {
+  margin-top: 100px;
+}
+
+.frame {
+  width: 1342px;
+  padding-top: 40px;
+}
+
+.frame > img {
+  width: 1342px;
+  height: 824px;
+  object-fit: contain;
+  top: -32px;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  left: 35px;
+  top: -10px;
+  z-index: 5;
+}
+
+.text-primary {
+  color: #f4bf01;
+}
+
+.text-secondary {
+  color: #75a0e1;
+}
+
+.text-18px {
+  font-size: 18px;
+}
+
+.text-26px {
+  font-size: 26px;
+}
+
+.text-56px {
+  font-size: 56px;
+}
+
+.title-mark {
+  color: #f4bf01;
+}
+.socials {
+  right: 1.2rem;
+  top: -15px;
+}
+
+.socials a {
+  margin-left: 16px;
+}
+
+.socials-text {
+  color: #75a0e1;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.airdrop {
+  font-size: 28px;
+  line-height: 32px;
+}
+.winner-code {
+  background: #0d123a;
+  border-radius: 16px;
+  padding: 18px 87px;
+}
+
+.shield {
+  left: -28px;
+  bottom: 0;
+}
+
+.wbond {
+  top: -36px;
+  right: 0;
+}
+
+.footer {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #75a0e1;
+}
+
+.footer-txt {
+  background: #0d113d url("assets/bg-footer.jpg") no-repeat center top;
+  padding-bottom: 25px;
+  padding-top: 76px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+.loader {
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #75a0e1;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  
+  /* Safari */
+  
+}
+
+/* Countdown */
+#countdown > ul {
+  text-align: center;
+}
+#countdown > ul > li {
+  margin: 0 6px;
+  color: white;
+  width: 80px;
+  height: 106px;
+  text-align: center;
+  display: inline-block;
+  background: #0D123A;
+  border-radius: 8px;
+}
+
+#countdown > ul > li > p {
+  line-height: 64px;
+  padding-top: 10px;
+}
+
+#countdown .read-more {
+  color: #75A0E1;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+
+
+#unity-fullscreen-button {
+  margin-left: 16px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
