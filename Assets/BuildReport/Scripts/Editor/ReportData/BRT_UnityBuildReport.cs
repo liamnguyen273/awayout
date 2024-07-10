@@ -80,12 +80,12 @@ namespace BuildReportTool
 				outputPathLength = 0;
 			}
 
-			OutputFiles = new OutputFile[buildReport.files.Length];
+			OutputFiles = new OutputFile[buildReport.GetFiles().Length];
 			for (int i = 0; i < OutputFiles.Length; ++i)
 			{
-				OutputFiles[i].FilePath = buildReport.files[i].path.Substring(outputPathLength);
-				OutputFiles[i].Role = buildReport.files[i].role;
-				OutputFiles[i].Size = buildReport.files[i].size;
+				OutputFiles[i].FilePath = buildReport.GetFiles()[i].path.Substring(outputPathLength);
+				OutputFiles[i].Role = buildReport.GetFiles()[i].role;
+				OutputFiles[i].Size = buildReport.GetFiles()[i].size;
 			}
 
 			_totalBuildTime = new TimeSpan(0);
